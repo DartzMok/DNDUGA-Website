@@ -5,9 +5,20 @@ body {
 	font-family: Arial, sans-serif;
     font-size: 12pt;
 	box-shadow: 10px 2px 17px 1px, -10px 2px 17px 1px; 
-	border: 2px solid steelblue;
+	border: 2px solid maroon;
 	border-width: 2px;
 	position: relative;
+}
+
+img { 
+	 padding-left: 2em;
+	 padding-top: 1em;
+     float: left;
+	 margin-right: 2em;
+    }
+	
+nav{
+	clear: left;
 }
 
 
@@ -16,8 +27,12 @@ table{
 }
 
 h1{
+	margin: 0.7em;
+  }
+
+h2{
 	margin: 1em;
-}
+  }
 
 table, th, td{
 	border: 1px solid black;
@@ -52,8 +67,9 @@ ol, li.explain{
 header {
 		padding: 0em;
 		margin: 0em;
-		border: 2px solid steelblue;
-		background-image: linear-gradient( to bottom, white, steelblue 200%);
+		border: 2px solid maroon;
+		height: 130px;
+		background-image: linear-gradient( to bottom, white, maroon 200%);
        }
 	   
 #nav_menu ul {list-style-type: none; padding: 0em; margin: 0em;
@@ -71,9 +87,17 @@ header {
 #nav_menu ul {list-style-type: none;}		
 #nav_menu ul li {float: left;}  
 #nav_menu ul li a{text-align: center; display: block; width: 175px; padding: 1em 0;
-background-color: steelblue; color: white; font-weight:bold; text-decoration: none;}
-#nav_menu ul li a:hover {background-color: lightsteelblue; font-weight:bold;}
+background-color: maroon; color: white; font-weight:bold; text-decoration: none;}
+#nav_menu ul li a:hover {background-color: lightmaroon; font-weight:bold;}
 
 p {
-	margin: 1em;
+	margin: 1.3em;
+}
+
+a.link{
+	text-decoration: none;
+}
+
+a.link:hover{
+	color: red;
 }
